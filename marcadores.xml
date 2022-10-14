@@ -16,3 +16,5 @@
     <uri>http://www.whatwg.org/</uri>
   </marcador>
 </marcadores>
+
+<!-- se cambia el elemto raiz por marcadores, se añade * para declarar 0 o más ocurrencias-->
