@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE colores [
   <!ELEMENT colores (color*)>
+  <!ELEMENT color (nombreSvg,codigo)>
   <!ELEMENT nombreSvg (#PCDATA)>
+  <!ELEMENT codigo (rgb|cmyk)>
   <!ELEMENT rgb (#PCDATA)>
   <!ELEMENT cmyk (#PCDATA)>
 ]>
@@ -20,3 +22,5 @@
     </codigo>
   </color>
 </colores>
+
+<!--se declara el elemento color con sus respectivos elementos, además de añadirle el * y se declaran los elementos de forma ordenada creando también secuencias como por ejemplo en codigo-->
