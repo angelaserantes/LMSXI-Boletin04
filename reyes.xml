@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reyesEspañoles [
-  <!ELEMENT reyesEspañoles (rey*, reina*)>
+  <!ELEMENT reyesEspañoles (rey |reina*)>
   <!ELEMENT rey (nombre, padre, madre)>
+  <!ELEMENT reina (nombre, padre,madre)>
   <!ELEMENT nombre (#PCDATA)>
   <!ELEMENT padre (#PCDATA)>
   <!ELEMENT madre (#PCDATA)>
@@ -24,3 +25,5 @@
     <madre>Juana la Loca</madre>
   </rey>
 </reyesEspañoles>
+
+<!-- se da la opción de que exista el elemento rey o reina dentro de reyes españoles y se define el elemento reina igual que el elemento rey-->
