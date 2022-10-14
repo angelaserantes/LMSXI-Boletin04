@@ -20,3 +20,5 @@
     <hecho>llegada de Robert Peary al Polo Norte</hecho>
   </efemeride>
 </efemerides>
+
+<!-- añadimos la posiblidad de que haya más ocurrencias con * y se declara el elemento fecha y hecho-->
